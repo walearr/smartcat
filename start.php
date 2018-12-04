@@ -2,5 +2,11 @@
 system('reset');
 
 include('Cats.php');
+$username = 'User';
 
-echo (new Cats())->catRight("Hello my name is Smartcat whant to play a math game?");
+echo (new Cats([
+    'Hello my name is Smartcat.',
+    'Do you want to play a math game?'
+
+]))->catRight();
+readline($username . ': ');
