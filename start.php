@@ -5,7 +5,6 @@ if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
     system('reset');
 }
 
-
 include('Cats.php');
 $username = 'User';
 
@@ -15,5 +14,3 @@ echo (new Cats([
 
 ]))->catRight();
 readline($username . ': ');
-
-

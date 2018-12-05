@@ -1,6 +1,5 @@
 <?php
 
-
 class Cats {
     private $thoughtBubble;
 
@@ -67,4 +66,3 @@ $this->thoughtBubble
 DOC;
     }
 }
-
