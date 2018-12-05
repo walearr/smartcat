@@ -9,8 +9,9 @@ include('Cats.php');
 $username = 'User';
 
 echo (new Cats([
-    'Hello my name is Smartcat.',
-    'Do you want to play a math game?'
+    'Hello, my name is Smartcat.',
+    'Lets play a game.',
+	'What is your name?'
 
 ]))->catRight();
 readline($username . ': ');
