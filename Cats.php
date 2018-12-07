@@ -3,7 +3,7 @@
 class Cats {
     private $thoughtBubble;
 
-    public function __construct (array $message_lines) {
+    public function catsay (array $message_lines) {
         $message = '';
         $max_lenght = 0;
 
