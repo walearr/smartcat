@@ -1,5 +1,5 @@
 <?php
-define ("MAX_RESPOND_TIME" ,10);
+define ("MAX_RESPOND_TIME", 4);
 
 function randNumber () {
     return rand(1,10);
