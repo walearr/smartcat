@@ -36,7 +36,7 @@ if (strlen($username) > 0) {
 
     echo $cat->catsay([
         'what is multiplication of ' . $number1 . ' and ' . $number2,
-        'answer options are: ' . $given_options[0] . ' ' .  $given_options[1] . ' ' . $given_answers[2]
+        'answer options are: ' . $given_options[0] . ' ' .  $given_options[1] . ' ' . $given_options[2]
     ])->cat();
 
     $answer = readline('My answer to 1st question is: ');
